@@ -3,47 +3,56 @@ body {
   margin: 0;
   padding: 0;
 }
-main{
-  display:flex;
-  flex-direction:column;
+
+main {
+  display: flex;
+  flex-direction: column;
   background-color: aqua;
-  padding:30px;
+  padding: 30px;
   margin: 0;
 }
- #title{
+
+#title {
   color: beige;
   font-size: 90px;
- }
- #img-div {
+  margin-top: 0;
+}
+
+#img-div {
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 #image {
   max-width: 100%;
   height: auto;
+  margin-bottom: 10px;
 }
 
-#img-caption{
+#img-caption {
   font-size: 14px;
   font-weight: bold;
-  
-   }
-  
-  a#tribute-link{
-    display:inline-block;
-    width:110px;
-    height:40px;
-    background-color: aliceblue;
-   display:flex;
-   align-items:center;
-   text-decoration: none;
-   font-weight: bold;
-   color:black;
-   padding-left:20px;
-  }
-  a#tribute-link:hover{
-    background-color:beige;
-  }
+}
+
+#tribute-info {
+  margin-bottom: 20px;
+}
+
+a#tribute-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background-color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+a#tribute-link:hover {
+  background-color: beige;
+}
